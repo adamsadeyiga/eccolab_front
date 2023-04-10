@@ -121,9 +121,19 @@
 }
 
 .facts-section-container .fact {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 20px;
   padding: 10px;
-  gap: 10px;
+  text-align: center;
+  gap: 15px;
+}
+
+.facts-section-container .fact img {
+  width: 100%;
+}
+
+.facts-section-container .fact  p{
+  font-size: 18px;
 }
