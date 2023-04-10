@@ -7,29 +7,28 @@ const Facts = (url) => {
         <h2 className='title'>Facts About Us</h2>
         <div className="facts-section-container">
             <div className="fact">
-                <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" />
+                <img src='../../public/img/hostel.svg' alt="" />
                 <p>Boarding Facilities</p>
             </div>
             <div className="fact">
-                <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" />
+                <img src='../../public/img/e-learning.svg' alt="" />
                 <p>E-learning Platform</p>
             </div>
             <div className="fact">
-                <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" />
-                <p></p>
+                <img src='../../public/img/computer labs.svg' alt="" />
+                <p>Furnished Computer Labs</p>
             </div>
             <div className="fact">
-                {/* <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" /> */}
-                <FaBookOpen />
+                <img src='../../public/img/books library.svg' alt="" />
                 <p>Functional Library</p>
             </div>
             <div className="fact">
-                <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" />
-                <p>Simple</p>
+                <img src='../../public/img/sports.svg' alt="" />
+                <p>Extra Curricular Activities</p>
             </div>
             <div className="fact">
-                <img src='../../public/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg' alt="" />
-                <p>Simple</p>
+                <img src='../../public/img/excursions.svg' alt="" />
+                <p>Excursions</p>
             </div>
         </div>
     </div> 
