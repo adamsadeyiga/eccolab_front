@@ -7,7 +7,7 @@ import Input from './Input'
 const Login = () => {
   return (
     <div>
-        {/* <Header title={WEBSITE_NAME} /> */}
+        <Header title={WEBSITE_NAME} />
 
         <div className="login-section">
             <div className="login-img">
