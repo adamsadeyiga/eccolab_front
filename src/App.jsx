@@ -16,19 +16,21 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
+    // <Router>
     <>
-      <div className="main-page">
-        <Header title={WEBSITE_NAME}/>
-        {/* <Route path='/' exact render={(props) => ( */}
-          <>
-            <Main />
-            <Facts url={imgUrl} />
-          </>
-        {/* )} */}
-        {/* <Route path='/login' component={Login}> */}
-        
-      </div>
+    {/* <Login /> */}
+         <div className="main-page">
+          <Header title={WEBSITE_NAME}/>
+          {/* <Route path='/' exact render={(props) => ( */}
+             <> 
+               <Main />  
+              <Facts url={imgUrl} /> 
+             </>
+           {/* )} /> */}
+          {/* <Route path='/login' component={Login}> */} 
+        </div> 
     </>
+    // </Router>
   )
 }
 

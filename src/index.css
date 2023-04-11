@@ -8,7 +8,7 @@
 }
 
 
-.main-page .header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,11 +106,10 @@
 
 .btn.filled {
   background: var(--theme-color);
-}
-
-.btn.filled a {
   color: #fff;
 }
+
+.btn.filled 
 
 .facts-section {
   padding: 20px;
@@ -157,4 +156,61 @@
 
 .facts-section-container .fact  p{
   font-size: 18px;
+}
+
+.login-section {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  margin: 15vmin auto;
+  justify-content: space-between;
+  padding: 20px 30vmin;
+  gap: 10vmin;
+}
+
+.login-section .login-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-section img {
+  width: 60vmin;
+  height: 60vmin;
+}
+
+.login-section .login-content {
+  padding: 10px;
+  display: grid;
+  /* justify-content: center; */
+  gap: 20px;
+  /* background-color: red; */
+}
+
+.login-content h2 {
+  font-size: 10vmin;
+}
+
+.login-content input {
+  border: none;
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  color: #363636;
+}
+.input-container {
+  display: grid;
+  gap: 5px;
+  margin: 10px 0 ;
+}
+
+.input-container .input-title {
+  font-size: 18px;
+}
+
+.input-container .input-title::after {
+  content: ':'
 }
