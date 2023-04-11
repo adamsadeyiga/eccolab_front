@@ -131,11 +131,10 @@
   gap: 10px;
   cursor: pointer;
   border-radius: 10px;
-  transition: 0.4s ease-in-out;
   /* box-shadow: 0 0 7px 2px rgba(182, 182, 180, 0.4); */
 }
 
-.facts-section-container .fact:hover {
+.facts-section-container .fact:hover img {
   transform: scale(1.15);
 }
 
@@ -143,6 +142,7 @@
 
 .facts-section-container .fact img {
   width: 20vmin;
+  transition: 0.4s ease-in-out;
   height: 20vmin;
   margin: auto;
 }
