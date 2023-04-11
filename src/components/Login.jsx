@@ -31,8 +31,6 @@ const Login = () => {
                 <Button />
             </div>
         </div>
-
-
     </div>
   )
 }
