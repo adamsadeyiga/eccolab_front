@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-dom'
 
 
 const Button = ({text, classStatus}) => {
@@ -10,7 +9,11 @@ const Button = ({text, classStatus}) => {
   }
 
   return (
-    <button className={colorMode ? 'btn filled' : 'btn'} onDoubleClick={swapColor}>{colorMode ? 'Logged In': 'Log In'}</button>
+    <button className={colorMode ? 'btn filled' : 'btn'} onDoubleClick={swapColor}>
+        <a href="/login">
+          {colorMode ? 'Logged In': 'Log In'}
+        </a>
+      </button>
     // <Link />
   )
 }

@@ -99,8 +99,16 @@
   transition: 0.2s ease-in;
 }
 
- .btn.filled {
+.btn a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+.btn.filled {
   background: var(--theme-color);
+}
+
+.btn.filled a {
   color: #fff;
 }
 
