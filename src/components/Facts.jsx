@@ -10,27 +10,27 @@ const Facts = (url) => {
                 {/* <img src='/img/hostel.svg' alt="" /> */}
             <div className="fact">
 
-                <img src='/img/hostel.svg' alt="" />
+                <img draggable="false" src='/img/hostel.svg' alt="" />
                 <p>Boarding Facilities</p>
             </div>
             <div className="fact">
-                <img src='/img/e-learning.svg' alt="" />
+                <img draggable="false" src='/img/e-learning.svg' alt="" />
                 <p>E-learning Platform</p>
             </div>
             <div className="fact">
-                <img src='/img/computer labs.svg' alt="" />
+                <img draggable="false" src='/img/computer labs.svg' alt="" />
                 <p>Furnished Computer Labs</p>
             </div>
             <div className="fact">
-                <img src='/img/books library.svg' alt="" />
+                <img draggable="false" src='/img/books library.svg' alt="" />
                 <p>Functional Library</p>
             </div>
             <div className="fact">
-                <img src='/img/sports.svg' alt="" />
+                <img draggable="false" src='/img/sports.svg' alt="" />
                 <p>Extra Curricular Activities</p>
             </div>
             <div className="fact">
-                <img src='/img/excursions.svg' alt="" />
+                <img draggable="false" src='/img/excursions.svg' alt="" />
                 <p>Excursions</p>
             </div>
         </div>
