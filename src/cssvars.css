@@ -1,4 +1,8 @@
 :root {
     --basic-stack-content-padding: 3vmin 6vmin;
     --theme-color: #2ec712;
+    --standard-text-size: 18px;
+    --standard-element-pop-transition: 0.2s ease-in-out;
+    --standard-element-scale-size: scale(1.1);
+
   }

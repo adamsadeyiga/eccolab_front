@@ -19,8 +19,13 @@
   text-align: center;
 }
 
+.header-components svg {
+  transition: var(--standard-element-pop-transition);
+}
+
 .header-components svg:hover {
   cursor: pointer;
+  transform: var(--standard-element-scale-size);
 }
 
 .main-page {
@@ -100,7 +105,7 @@
   color: var(--theme-color);
   border: 2px solid var(--theme-color);
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: var(--standard-element-pop-transition);
 }
 
 .btn a {
@@ -146,20 +151,20 @@
 }
 
 .facts-section-container .fact:hover img {
-  transform: scale(1.15);
+  transform: var(--standard-element-scale-size);
 }
 
 
 
 .facts-section-container .fact img {
   width: 20vmin;
-  transition: 0.4s ease-in-out;
+  transition: var(--standard-element-pop-transition);
   height: 20vmin;
   margin: auto;
 }
 
 .facts-section-container .fact  p{
-  font-size: 18px;
+  font-size: var(--standard-text-size);
 }
 
 .login-section {
@@ -201,7 +206,7 @@
   border: 2px solid #ccc;
   border-radius: 5px;
   background-color: #fff;
-  font-size: 18px;
+  font-size: var(--standard-text-size);
   padding: 10px;
   color: #363636;
 }
@@ -212,7 +217,7 @@
 }
 
 .input-container .input-title {
-  font-size: 18px;
+  font-size: var(--standard-text-size);
 }
 
 .input-container .input-title::after {
