@@ -3,6 +3,7 @@ import Header from './Header'
 import Button from './Button'
 import Input from './Input'
 
+import { WEBSITE_NAME } from '../App'
 
 const Login = () => {
   return (

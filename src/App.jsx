@@ -5,7 +5,7 @@ import Login from './components/Login'
 // import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 
-const WEBSITE_NAME = 'Eccowas College'
+export const WEBSITE_NAME = 'Eccowas College'
 
 const imgUrl = `./assets/img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg`
 function App() {
@@ -13,16 +13,16 @@ function App() {
 
   return (
     // <Router>
-    <div className="main-page">
-         <Header title={WEBSITE_NAME}/>
-         {/* <Route path='/' exact render={(props) => ( */}
-            <> 
+       <div className="main-page"> 
+        <Header title={WEBSITE_NAME}/> 
+        {/* <Route path='/' exact render={(props) => (  */}
+          <> 
               <Main />  
               <Facts url={imgUrl} /> 
-            </>
-          {/* )} />  */}
-          {/* <Route path='/login' component={Login} />  */}
-    </div> 
+            </> 
+         {/* )} />   */}
+        {/* <Route path='/login' component={Login} />   */}
+     </div> 
     // </Router>
   )
 }
