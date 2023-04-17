@@ -9,8 +9,8 @@ const Button = ({text, classStatus, type}) => {
   }
 
   return (
-    <button className={colorMode ? 'btn filled' : 'btn'} onDoubleClick={swapColor}>
-          {colorMode ? 'Logged In': 'Log In'}
+    <button className={'btn'} onDoubleClick={swapColor}>
+          {text}
       </button>
     // <Link />
   )

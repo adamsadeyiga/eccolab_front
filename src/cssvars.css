@@ -1,6 +1,7 @@
 :root {
     --basic-stack-content-padding: 2vmin 6vmin;
     --theme-color: #2ec712;
+    --theme-color-dark: #146b05;
     --standard-text-size: 18px;
     --standard-element-pop-transition: 0.2s ease-in-out;
     --standard-element-scale-size: scale(1.1);

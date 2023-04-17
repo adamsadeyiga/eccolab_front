@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaBookOpen } from 'react-icons/fa'
 
-const Facts = (url) => {
+const Facts = () => {
   return (
     <div className='facts-section'>
         <h2 className='title'>Facts About Us</h2>
