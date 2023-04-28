@@ -1,4 +1,5 @@
 @import url('cssvars.css');
+@import url("./../node_modules/bootstrap/dist/css/bootstrap.css");
 
 * {
   padding: 0;
@@ -108,7 +109,7 @@
   transition: var(--standard-element-pop-transition);
 }
 
-.btn a {
+a {
   color: var(--theme-color);
   text-decoration: none;
 }
@@ -165,6 +166,14 @@
 
 .facts-section-container .fact  p{
   font-size: var(--standard-text-size);
+}
+
+.list-signup {
+  display: flex;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
 .login-section {

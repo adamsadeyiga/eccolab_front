@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaBookOpen } from 'react-icons/fa'
-
 const Facts = (url) => {
   return (
     <div className='facts-section'>
@@ -10,27 +8,27 @@ const Facts = (url) => {
                 {/* <img src='/img/hostel.svg' alt="" /> */}
             <div className="fact">
 
-                <img draggable="false" src='/img/hostel.svg' alt="" />
+                <img draggable="false" src='../img/hostel.svg' alt="" />
                 <p>Boarding Facilities</p>
             </div>
             <div className="fact">
-                <img draggable="false" src='/img/e-learning.svg' alt="" />
+                <img draggable="false" src='../img/e-learning.svg' alt="" />
                 <p>E-learning Platform</p>
             </div>
             <div className="fact">
-                <img draggable="false" src='/img/computer labs.svg' alt="" />
+                <img draggable="false" src='../img/computer labs.svg' alt="" />
                 <p>Furnished Computer Labs</p>
             </div>
             <div className="fact">
-                <img draggable="false" src='/img/books library.svg' alt="" />
+                <img draggable="false" src='../img/books library.svg' alt="" />
                 <p>Functional Library</p>
             </div>
             <div className="fact">
-                <img draggable="false" src='/img/sports.svg' alt="" />
+                <img draggable="false" src='../img/sports.svg' alt="" />
                 <p>Extra Curricular Activities</p>
             </div>
             <div className="fact">
-                <img draggable="false" src='/img/excursions.svg' alt="" />
+                <img draggable="false" src='../img/excursions.svg' alt="" />
                 <p>Excursions</p>
             </div>
         </div>

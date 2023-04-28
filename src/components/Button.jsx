@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const Button = ({text, classStatus, type}) => {
+const Button = ({text, click, classStatus, type, location}) => {
   const [colorMode, setColorMode] = useState(false)
 
   function swapColor() {
@@ -9,9 +9,11 @@ const Button = ({text, classStatus, type}) => {
   }
 
   return (
-    <button className={colorMode ? 'btn filled' : 'btn'} onDoubleClick={swapColor}>
+    <a href={location}>
+      <button className={colorMode ? 'btn filled' : 'btn'} onClick={click}  >
           {colorMode ? 'Logged In': 'Log In'}
       </button>
+    </a>
     // <Link />
   )
 }
