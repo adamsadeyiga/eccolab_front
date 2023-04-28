@@ -13,7 +13,7 @@
 
 #### Introduction
 
-This is the frontend repo for the project
+This is the frontend repo for the project, please we are now working on the contextSetup branch, pull from the contextSetup branch. I would write a detailed explanation on how to work with the files soon.
 
 
 #### Setup
