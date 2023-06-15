@@ -90,10 +90,11 @@ const Login = () => {
         <div className="login-section">
             <div className="login-img">
                 <img src="../../img/computer labs.svg" />
+                <Link to="/">Back to home</Link>
             </div>
             <div className="login-content">
                 <h2>Log In</h2>
-                <div>
+                <div style={{display: 'grid',gap: '10px'}}>
                     <Input type="username" title='Username' />
                     <Input type="password" title='Password' />
                 </div>

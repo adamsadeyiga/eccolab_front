@@ -114,6 +114,10 @@
 
 a {
   color: var(--theme-color);
+}
+
+a:hover {
+  color: hsl(130, 98%, 21%);
   text-decoration: none;
 }
 
@@ -190,9 +194,10 @@ a {
 }
 
 .login-section .login-img {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .login-section img {
@@ -224,8 +229,6 @@ a {
 }
 .input-container {
   display: grid;
-  gap: 5px;
-  margin: 10px 0 ;
 }
 
 .input-container .input-title {

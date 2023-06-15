@@ -9,6 +9,7 @@ const Main = () => {
             <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum hic facere exercitationem ipsum eligendi, odio a blanditiis ab, voluptate ipsa, et animi aspernatur unde eveniet odit doloremque accusamus vero beatae nihil amet veniam!</p>
             <div className="btn-holders">
               <Button location='/login' text="LogIn" classStatus={true}/>
+              
             </div>
         </div>
     </div>

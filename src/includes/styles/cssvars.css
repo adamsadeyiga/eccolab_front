@@ -1,8 +1,39 @@
 :root {
-    --basic-stack-content-padding: 2vmin 6vmin;
+    --basic-stack-content-padding: 0.5vmin 6vmin;
     --theme-color: #2ec712;
     --standard-text-size: 18px;
     --standard-element-pop-transition: 0.2s ease-in-out;
     --standard-element-scale-size: scale(1.1);
 
   }
+
+  /**
+ # MTN
+500mb #150
+1gb #300
+2gb#550
+3gb#850
+5gb#1300
+Williams
+AIRTEL
+500mb #150
+1gb #350
+2gb#600
+5gb#1400
+10gb#2500
+Williams
+9MOBILE
+500mb #150
+1gb #250
+2gb#550
+3gb#750
+4gb#950
+Williams
+GLO
+200mb #90
+500mb #150
+1gb #300
+2gb#600
+3gb#850
+
+**/
